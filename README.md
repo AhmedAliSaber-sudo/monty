@@ -9,11 +9,14 @@ What is the proper way to use global variables..
 *These codes were compiled using: gcc -Wall -Werror -Wextra -pedantic -std=c89
 *.c -o monty
 *Any output must be printed on stdout*
-Any error message must be printed on stderr
+*Any error message must be printed on stderr
+#Examples
+
+
+
+
+
+
 
 
 Authors: Ahmed Ali and Omnia Saged.
-
-   
-
-
