@@ -28,8 +28,26 @@ push 4$
 pall$
 #Tasks
 Mandatory:-
+0-push, pall
+Implement the push and pall opcodes.
 
 
+1-pint
+Implement the pint opcode.
 
-julien@ubuntu:~/monty$
+
+2-pop
+Implement the pop opcode.
+
+
+3-swap
+Implement the swap opcode.
+
+
+-4add
+Implement the add opcode.Implement the add opcode.
+
+
+5-nop
+Implement the nop opcode.
 Authors: Ahmed Ali and Omnia Saged.
