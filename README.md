@@ -11,12 +11,21 @@ What is the proper way to use global variables..
 *Any output must be printed on stdout*
 *Any error message must be printed on stderr
 #Examples
+julien@ubuntu:~/monty$ cat -e bytecodes/000.m
 
+push 0$
 
+push 1$
 
+push 2$
 
+  push 3$
+                   pall    $
+push 4$
 
+    push 5    $
+      push    6        $
+pall$
 
-
-
+julien@ubuntu:~/monty$
 Authors: Ahmed Ali and Omnia Saged.
