@@ -11,6 +11,9 @@ What is the proper way to use global variables..
 *Any output must be printed on stdout*
 Any error message must be printed on stderr
 
+
+Authors: Ahmed Ali and Omnia Saged.
+
    
 
 
