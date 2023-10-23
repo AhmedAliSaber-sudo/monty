@@ -7,7 +7,6 @@
 #include <stddef.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <type.h>
 #include <sys/type.h>
 #include <sys/stat.h>
 
