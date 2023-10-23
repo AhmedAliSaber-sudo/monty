@@ -2,13 +2,10 @@
 #define MONTY_H
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <stddef.h>
-#include <fcntl.h>
+#include <string.h>
+#include <sys/types.h>
 #include <unistd.h>
-#include <sys/type.h>
-#include <sys/stat.h>
 
 /** data stuctures used **/
 
