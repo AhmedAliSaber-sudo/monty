@@ -11,7 +11,7 @@
 #include <sys/type.h>
 #include <sys/stat.h>
 
-/** data srucutres used **/
+/** data stuctures used **/
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -43,5 +43,19 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+
+
+void push(stack_t **top, unsigned int line_number, char *data);
+void pall(stack_t **top, unsigned int line_number);
+int is_integer(char *str);
+void pop(stack_t **top, unsigned int line_number);
+void execute_operation(stack_t **top,
+		char *opcode, unsigned int line_number, char *data);
+int run(int argc, char **argv);
+
+
+#endif
+
+
 
 
