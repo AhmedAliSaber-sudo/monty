@@ -46,7 +46,7 @@ int run(int argc, char **argv)
 	{
 		stack_t *temp = top;
 
-		top = stack->prev;
+		top = top->prev;
 		free(temp);
 	}
 	fclose(monty_file);

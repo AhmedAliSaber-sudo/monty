@@ -12,24 +12,12 @@ void execute_operation(stack_t **top,
 	int i = 0;
 
 	instruction_t instructions[] = {
-		{"pall", _pall},
-		{"pint", _pint},
-		{"pop", _pop},
-		{"swap", _swap},
-		{"add", _add},
-		{"nop", _nop},
-		{"sub", _sub},
-		{"div", _div},
-		{"mul", _mul},
-		{"mod", _mod},
-		{"pchar", _pchar},
-		{"pstr", _pstr},
-		{"rotl", _rotl},
-		{"rotr", _rotr},
+		{"pall", pall},
+		{"pop", pop},
 		{"null", NULL}
 	};
 
-	while (instruction_s[i].f)
+	while (instructions[i].f)
 	{
 		if (strcmp("push", opcode) == 0)
 		{
